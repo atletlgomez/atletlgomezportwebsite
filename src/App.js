@@ -11,24 +11,28 @@ import "./fonts.css";
 
 function App() {
   return (
-    <div className="App">
-        <Helmet>
+    <>
+    <Helmet>
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MP70HJEMFZ"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MP70HJEMFZ"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-  gtag('config', 'G-MP70HJEMFZ');
+gtag('config', 'G-MP70HJEMFZ');
 </script>
-        </Helmet>
+    </Helmet>
+
+    <div className="App">
+
 
       <Header></Header>
       <Skills></Skills>
       <DisplayProj></DisplayProj>
       <Education></Education>
     </div>
+    </>
   );
 }
 
