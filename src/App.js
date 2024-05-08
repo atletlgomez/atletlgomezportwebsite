@@ -2,26 +2,27 @@ import Header from "./components/header";
 import Skills from "./components/skills";
 import DisplayProj from "./components/project";
 import Education from "./components/education";
-import { Helmet } from "react-helmet";
+import ReactGA from "react-ga4";
+import useEffect from "react";
+
 
 import "./styles/projdisplay.css"
 import "./styles/page.css";
 import "./styles/sidebarstyle.css"
 import "./fonts.css";
 
+ReactGA.initialize("G-MP70HJEMFZ");
+
+
+
 function App() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
   return (
     <>
-    <Helmet>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MP70HJEMFZ"></script>
-    <script>
-  window.dataLayer = window.dataLayer || [];
-  {function gtag(){dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', 'G-MP70HJEMFZ');
-</script>
-    </Helmet>
 
     <div className="App">
 
