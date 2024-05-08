@@ -10,6 +10,8 @@ html {
 
 body {
   width: 80%;
+  font-family: "Bebas Neue", sans-serif;
+
 }
 
 #nameAndIntro {
@@ -19,8 +21,39 @@ body {
   font-style: normal;
 }
 
+#nameAndIntro h4{
+  display: flex;
+  font-size: 45px;
+  color: #211A1E;
+
+}
+
+#helloWrd {
+  color: #3F7CAC;
+  margin-bottom: 0px;
+}
+#hellomsg {
+  width: 50%;
+  text-align: left;
+}
+
+#hellomsg h6 {
+  margin-top: 2%;
+}
+
+.focus {
+  color: #3F7CAC;
+}
+
+#skills {
+}
+
+h4 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
 #skillBadges {
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -35,91 +68,49 @@ body {
   display: flex;
   width: 100px;
   height: 100px;
-  border: 1px solid;
-  border: 10px solid white;
   border-radius: 50px;
   box-shadow: 9px 9px 20px #908f90;
-  padding: 20px 20px 20px 0px;
+  padding: 20px 25px 20px 25px;
 }
 
-#parent {
+#htmlbadge {
+  box-shadow: 9px 9px 1px #E44D26;
+}
+
+#cssbadge {
+  box-shadow: 9px 9px 1px #1572B6;
+}
+
+#reactbadge {
+  box-shadow: 9px 9px 1px #34abcc;
+}
+
+#sqlbadge {
+  box-shadow: 9px 9px 1px #636262;
+}
+
+#jsbadge {
+  box-shadow: 9px 9px 1px #d2bf44;
+}
+
+#nodebadge {
+  box-shadow: 9px 9px 1px #5fa04e;
+}
+
+.educationblock {
   display: flex;
-  justify-content: center;
+  justify-content: space-between
 }
 
-.container {
-  font-family: helvetica, arial, sans-serif;
-  position: relative;
-  border: 1px solid black;
-  font-family: "Bebas Neue", sans-serif;
+.educationblock p {
+  font-size: 30px;
+  display: flex;
+  
+}
+
+.educationdesc {
+  display: flex;
+  align-self: center;
   width: 50%;
 }
 
-.sticky-thc {
-  #leftmoving,
-  #leftmovingtwo,
-  #rightmovingone {
-    position: sticky;
-    top: 0;
-    border: 1px solid black;
-    padding: 0px;
-    margin: 0px;
-  }
-}
-
-#parent {
-  display: flex;
-}
-
-#moving {
-  display: flex;
-  flex-direction: column;
-}
-
-#skills {
-  display: flex;
-  justify-content: space-around;
-  color: white;
-}
-
-#skills p {
-  border: 1px solid black;
-  border-radius: 30px;
-  padding: 10px 30px 10px 30px;
-  background-color: black;
-  font-size: 20px;
-}
-
-#leftmoving h1 {
-  font-size: 70px;
-}
-
-#leftmoving {
-  height: 400px;
-}
-#leftmovingtwo {
-  height: 1215px;
-}
-#desktopimage {
-  height: 395px;
-  width: 100%;
-  height: 400px;
-}
-
-#rightmovingtrackone {
-  height: 1800px;
-}
-
-#leftmovingtracktwo {
-  height: 1800px;
-  position: sticky;
-}
-
-#desktopimage {
-  padding: 0px;
-  margin: 0px;
-}
-
-#leftmovingthree {
-  margin-top: 40px;
-}

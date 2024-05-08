@@ -1,0 +1,123 @@
+#displaydiv {
+width: 100%;
+}
+
+#websiteimg {
+    width: 50%;
+    overflow: hidden;
+    height: 350px;
+
+    
+}
+
+
+
+#websiteimg img{
+    width: 750px;
+    height: 960px;
+
+}
+
+#displaydiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 50px 0px;
+}
+
+#imgdesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:max-content;
+    height: 350px;
+    width: 750px
+}
+
+#imgdesc ul{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+
+}
+
+#imgdesc li {
+    background-color: rgb(54, 53, 53);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+#projectdisc {
+    margin: auto;
+    width: 80%;
+
+}
+
+#leftcolumn {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+#description {
+    height: 725.71px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#description h4 {
+    width: 90%;
+    margin: 0%;
+}
+
+
+
+#firstdraft p {
+    font-size: 20px;
+    line-height: 60px;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+
+#seconddraft p {
+    font-size: 20px;
+    line-height: 60px;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+#thirddraft p {
+        font-size: 20px;
+        line-height: 60px;
+        margin: auto;
+        width: 80%;
+        text-align: left;  
+}
+#fourthdraft p {
+    font-size: 20px;
+    line-height: 60px;
+    margin: auto;
+    width: 80%;
+    text-align: left;  
+}
+
+.scrollmenu button {
+    background-color: inherit;
+    color: white;
+    border: none;
+}
+
+.scrollmenu button:hover {
+    color: rgb(109, 190, 237)
+}
+
+#project {
+    font-size: 60px;
+}

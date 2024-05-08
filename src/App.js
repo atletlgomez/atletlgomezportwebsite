@@ -1,7 +1,11 @@
 import Header from "./components/header";
 import Skills from "./components/skills";
-import Display from "./components/displaywork";
+import DisplayProj from "./components/project";
+import Education from "./components/education";
+
+import "./styles/projdisplay.css"
 import "./styles/page.css";
+import "./styles/sidebarstyle.css"
 import "./fonts.css";
 
 function App() {
@@ -9,7 +13,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <Skills></Skills>
-      <Display></Display>
+      <DisplayProj></DisplayProj>
+      <Education></Education>
     </div>
   );
 }

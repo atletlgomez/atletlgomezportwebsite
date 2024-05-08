@@ -1,12 +1,16 @@
 export default function Header() {
   return (
     <div id="nameAndIntro">
-      <h1>ATLETL GOMEZ VARGAS</h1>
-      <h6>
-        I AM CURRENTLY A COLLEGE STUDENT, OCCASIONALLY A PHOTOGRAPHER, BUT
-        ALWAYS A
+      <h4>ATLETL GOMEZ VARGAS</h4>
+
+      <div id="hellomsg">
+      <h2 id="helloWrd">helllooo</h2>
+
+        <h6>
+        I AM CURRENTLY A COLLEGE STUDENT, OCCASIONALLY A PHOTOGRAPHER, AND AN ASPIRING <span className="focus">WEB DEVELOPER</span>
       </h6>
-      <h2>web developer.</h2>
+
+    </div>
     </div>
   );
 }
