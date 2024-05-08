@@ -11,6 +11,18 @@ import "./fonts.css";
 function App() {
   return (
     <div className="App">
+
+
+      <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MP70HJEMFZ"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  {function gtag(){dataLayer.push(arguments);}}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MP70HJEMFZ');
+  </script>
+      </head>
       <Header></Header>
       <Skills></Skills>
       <DisplayProj></DisplayProj>
