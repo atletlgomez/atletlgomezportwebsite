@@ -3,7 +3,6 @@ import Skills from "./components/skills";
 import DisplayProj from "./components/project";
 import Education from "./components/education";
 import ReactGA from "react-ga4";
-import useEffect from "react";
 
 
 import "./styles/projdisplay.css"
