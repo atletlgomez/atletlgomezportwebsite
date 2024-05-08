@@ -16,7 +16,7 @@ function App() {
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MP70HJEMFZ"></script>
 window.dataLayer = window.dataLayer || [];
-{function gtag(){dataLayer.push(arguments);}}
+function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-MP70HJEMFZ');
     </Helmet>
