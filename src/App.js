@@ -17,9 +17,7 @@ ReactGA.initialize("G-MP70HJEMFZ");
 
 function App() {
 
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname)
-  }, [])
+
   return (
     <>
 
