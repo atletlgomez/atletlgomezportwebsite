@@ -12,7 +12,7 @@
     "react-ga": "^3.3.1",
     "react-ga4": "^2.1.0",
     "react-helmet": "^6.1.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-sticky-box": "^2.0.5",
     "react-sticky-el": "^2.1.0",
     "semantic-ui-css": "^2.5.0",
