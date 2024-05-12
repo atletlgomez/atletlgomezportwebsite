@@ -26,6 +26,8 @@ function App() {
 
       <Header></Header>
       <Skills></Skills>
+      <div class='sk-ww-medium-publication-feed' data-embed-id='25411127'></div><script src='https://widgets.sociablekit.com/medium-publication-feed/widget.js' async defer></script>
+      <iframe src='https://widgets.sociablekit.com/medium-publication-feed/iframe/25411127' frameborder='0' width='100%' height='1000' title="medium blog"></iframe>
       <DisplayProj></DisplayProj>
       <Education></Education>
     </div>
