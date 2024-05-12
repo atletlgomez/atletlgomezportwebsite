@@ -18,7 +18,7 @@ export default function Education () {
                 <h4>CTI Accelerate Program</h4>
                 <p>2024-Present</p></div>
                 <div className="educationdesc">
-                <p>A year-long program to hone our technical and non-technical skills for interviews, accelerated Python course to prepare us for our future internship</p>
+                <p>A year-long program to hone our technical and non-technical skills for interviews, accelerated Python course to prepare us for a future internship</p>
             </div>
             </div>
 
