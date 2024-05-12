@@ -28,7 +28,7 @@ function App() {
       <Header></Header>
       <Skills></Skills>
       <h4 className="focus">MEDIUM - BLOG</h4>
-      <div id="mediumblogdiv"><iframe src='https://widgets.sociablekit.com/medium-publication-feed/iframe/25411138' frameborder='0' width='100%' height='1000'></iframe></div>
+      <div id="mediumblogdiv"><iframe src='https://widgets.sociablekit.com/medium-publication-feed/iframe/25411138' frameborder='0' width='100%' height='1000' title="meidum_blog_post"></iframe></div>
       <DisplayProj></DisplayProj>
       <Education></Education>
     </div>
