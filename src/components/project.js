@@ -5,6 +5,7 @@ import image1 from "../images/portfolioimages/atletlgomez2.png"
 import image2 from "../images/portfolioimages/atletlgomezport.png"
 import image3 from "../images/portfolioimages/finalwebsite.png"
 
+
 export default function DisplayProj() {
     const [ShowMore, setShowMore] = useState(false)
     const [index, setIndex] = useState(0);
@@ -12,7 +13,7 @@ export default function DisplayProj() {
 
     return (
         <>
-        <h1 id="project" className="focus">PROJECTS</h1>
+
         <div id="displaydiv">
             <div id="leftcolumn">
             <div id="imgdesc">

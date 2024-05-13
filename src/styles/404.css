@@ -1,0 +1,19 @@
+html {
+  background-color: #e3cfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#fourohfour {
+  font-size: 200px;
+  margin-bottom: 5px;
+}
+#fourohfourtxt {
+  font-size: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

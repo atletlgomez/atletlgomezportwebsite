@@ -1,37 +1,45 @@
-import Header from "./components/header";
-import Skills from "./components/skills";
-import DisplayProj from "./components/project";
-import Education from "./components/education";
 import ReactGA from "react-ga4";
-
+import { Routes, Route } from 'react-router-dom';
+import { useState } from "react";
 
 import "./styles/projdisplay.css"
 import "./styles/page.css";
 import "./styles/sidebarstyle.css"
 import "./fonts.css";
-
+import StationForSupplies from "./components/ecommerceproj";
+import TitleName from "./components/titlename";
+import AppInside from "./components/insdeapp";
+import FourOhFour from "./components/fourohfour";
 ReactGA.initialize("G-MP70HJEMFZ");
 
 
 
 function App() {
 
+  const [projpgdisplay, SetProjPgDisplay] = useState(false)
 
 
   return (
     <>
 
 
+
+
+
     <div className="App">
+      <TitleName onClick={() => {
+            SetProjPgDisplay(!projpgdisplay)
+          }}></TitleName>
+                 <Routes>
+          <Route path="/" element={<AppInside />}/>
+          <Route path="/ecommerceproj" element={<StationForSupplies />}/>
+          <Route path="/" element={<AppInside />}/>
+          <Route path="*" element={<FourOhFour />}/>
+       </Routes>
 
 
-      <Header></Header>
-      <Skills></Skills>
-      <h4 className="focus">MEDIUM - BLOG</h4>
-      <div id="mediumblogdiv"><iframe src='https://widgets.sociablekit.com/medium-publication-feed/iframe/25411138' frameborder='0' width='100%' height='1000' title="meidum_blog_post"></iframe></div>
-      <DisplayProj></DisplayProj>
-      <Education></Education>
     </div>
+
     </>
   );
 }

@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div id="nameAndIntro">
-      <h4>ATLETL GOMEZ VARGAS</h4>
+      {/* <h4>ATLETL GOMEZ VARGAS</h4> */}
 
       <div id="hellomsg">
       <h2 id="helloWrd">helllooo</h2>
