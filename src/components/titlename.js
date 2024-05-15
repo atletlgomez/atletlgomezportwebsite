@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import { useState } from "react";
 import { useSpring } from "@react-spring/web";
 import { animated } from "@react-spring/web";
-import download from '../images/portfolioimages/download.png'
 import DownloadButton from "./downloadbutton";
 
 export default function TitleName () {
