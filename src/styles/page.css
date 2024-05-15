@@ -154,3 +154,25 @@ a {
 #nodebadge:hover {
   box-shadow: 9px 9px 50px 1px #5fa04e;
 }
+#nameAndIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#goal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: center;
+}
+#goal h6 {
+  margin: 0px;
+  font-size: 30px;
+}
+#goal h6 {
+  margin: 0px;
+}
+#headerblocks {
+  display: flex;
+  flex-direction: column;
+}

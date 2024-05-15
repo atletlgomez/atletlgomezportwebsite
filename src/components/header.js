@@ -15,6 +15,19 @@ export default function Header() {
       </h6>
 
     </div>
+
+
+
+
+
+
+    </div>
+
+    
+
+    <div id="goal">
+      <h4 className="focus">current Goal:</h4>
+      <h6>currently this website profolio is to share my ongoing journey in web devlopment, while I aim to finish my bachelor's degree in computer science</h6>
     </div>
 
 
