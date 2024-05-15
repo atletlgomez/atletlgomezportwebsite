@@ -29,8 +29,21 @@ export default function FourOhFour() {
     }, []);
 
     return (
+        <>
+        <h4 className="focus">404</h4>
+        <h1 id="fourohfourtxt">page not found</h1>
+        <h3>
+          I don't know how you got here but listen to this
+        </h3>
+        <h3>
+          *ahemm ahemm*
+        </h3>
         <div className="joke-container">
-            <p>{joke}</p>
+            <h4>{joke}</h4>
         </div>
+              <h5>
+              !! any offensive joke is not mine, i am literally just calling an api !!
+            </h5>
+            </>
     );
 }

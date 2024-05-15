@@ -1,5 +1,9 @@
+
 export default function Header() {
+
+
   return (
+    <div id="headerblocks">
     <div id="nameAndIntro">
       {/* <h4>ATLETL GOMEZ VARGAS</h4> */}
 
@@ -12,5 +16,8 @@ export default function Header() {
 
     </div>
     </div>
+
+
+</div>
   );
 }

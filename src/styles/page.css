@@ -117,3 +117,40 @@ h4 {
   height: 420px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  color: #211A1E;
+}
+
+#headerblocks {
+  display: flex;
+}
+
+
+
+#clickbutton img {
+  width: 30px;
+  height: 30px;
+}
+
+#download {
+  background-color: inherit;
+  border: none;
+}
+
+#sqlbadge:hover {
+  box-shadow: 9px 9px 50px 1px #636262;
+}
+#jsbadge:hover {
+  box-shadow: 9px 9px 50px 1px #d2bf44;
+}#htmlbadge:hover {
+  box-shadow: 9px 9px 50px 1px #E44D26;
+}#cssbadge:hover {
+  box-shadow: 9px 9px 50px 1px #1572B6;
+}#reactbadge:hover {
+  box-shadow: 9px 9px 50px 1px #34abcc;
+}
+#nodebadge:hover {
+  box-shadow: 9px 9px 50px 1px #5fa04e;
+}
